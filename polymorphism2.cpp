@@ -6,16 +6,20 @@
 #include<iostream>
 using namespace std; 
 
-class A{
+class A
+{
     public:
-        void display(){
+        void display()
+        {
             cout<<"This is Super/Parent Class Function"<<endl;
         }
 };
 
-class B : public A{//inheriting
+class B : public A
+{
     public:
-        void display(){
+        void display()
+        {
             cout<<"This is Base/Child Class Function";
         }
 };

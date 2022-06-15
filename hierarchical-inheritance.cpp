@@ -1,4 +1,3 @@
-/* Hierarchical Inheritance */
 
 //Class B and C inherits class A
 

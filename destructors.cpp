@@ -1,7 +1,5 @@
-/* C++ in Hindi - Destrcutured Constructor*/
 
-/* When does the destructor get called?
-A destructor is automatically called when:
+/* A destructor is automatically called when:
 1) The program finished execution.
 2) When a scope (the { } parenthesis) containing local variable ends.
 OR
@@ -10,18 +8,22 @@ Destructors are usually used to deallocate memory and do other cleanup for a cla
 #include<iostream>
 using namespace std; // this is namespace
 
-class HelloWorld{
+class HelloWorld
+{
     public:
     //Contructor
-    HelloWorld(){
+    HelloWorld()
+    {
         cout<<"Contrctor is Called"<<endl;
     }
     //Destructor
-    ~HelloWorld(){ //at last Destructor is called and terminate the program
+    ~HelloWorld()
+    { //at last Destructor is called and terminate the program
         cout<<"Destructor is Called"<<endl;
     }
     //Member Function
-    void display(){
+    void display()
+    {
         cout<<"Hello World from Member Function"<<endl;
     }
 };

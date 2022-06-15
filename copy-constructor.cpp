@@ -2,32 +2,36 @@
 using namespace std;
 
 // declare a class
-class Wall {
+class Wall 
+{
   private:
     double length;
     double height;
 
   public:
-
     // initialize variables with parameterized constructor
-    Wall(double len, double hgt) {
+    Wall(double len, double hgt) 
+    {
       length = len;
       height = hgt;
     }
 
     // copy constructor with a Wall object as parameter
     // copies data of the obj parameter
-    Wall(Wall &obj) {
+    Wall(Wall &obj) 
+    {
       length = obj.length;
       height = obj.height;
     }
 
-    double calculateArea() {
+    double calculateArea() 
+    {
       return length * height;
     }
 };
 
-int main() {
+int main() 
+{
   // create an object of Wall class
   Wall wall1(10.5, 8.6);
 

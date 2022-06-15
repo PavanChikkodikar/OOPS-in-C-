@@ -29,9 +29,7 @@ class Encapsulation
 int main()
 {
 	Encapsulation obj;
-	
 	obj.set(5);
-	
 	cout<<obj.get();
 	return 0;
 }
