@@ -41,16 +41,14 @@ void car :: mileage(float d, float f) //defined here
 
 int main ()
 {
-        car swift; //created swift object (class_name object_name) (method 1 for creating object )
+    car swift; //created swift object (class_name object_name) (method 1 for creating object )
 
     // swift.getdata(130, 7);      //object.function()
     // audi.getdata(150,25);
     // swift.mileage(130,7);
-    
 
     swift.speed = 50;//now we can access the speed because above in declaration it is made as public .if it was private then we cant be access it
     swift.carspeed();
     
-
     return 0;
 }
