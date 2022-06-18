@@ -5,23 +5,29 @@
 #include<iostream>
 using namespace std;
 
-class A{
+class A
+{
     public:
-    A(){
+    A()
+    {
         cout<<"Constructor of A"<<endl;
     }
 };
-class B {
+class B 
+{
     public:
-    B(){
+    B()
+    {
         cout<<"Constructor of B"<<endl;
     }
     string a="Pavan";
 };
 
-class C : public A, public B{//one child has multiple parents
+class C : public A, public B
+{//one child has multiple parents
     public:
-    C(){
+    C()
+    {
         cout<<"Constructor of C"<<endl;
     }
 };

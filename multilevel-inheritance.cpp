@@ -5,22 +5,28 @@
 #include<iostream>
 using namespace std;
 
-class A{
+class A
+{
     public:
-    A(){
+    A()
+    {
         cout<<"Constructor of A"<<endl;
     }
 };
-class B : public A{
+class B : public A
+{
     public:
-    B(){
+    B()
+    {
         cout<<"Constructor of B"<<endl;
     }
 };
 
-class C : public B{
+class C : public B
+{
     public:
-    C(){
+    C()
+    {
         cout<<"Constructor of C"<<endl;
     }
 };

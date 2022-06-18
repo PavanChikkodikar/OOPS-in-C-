@@ -1,26 +1,31 @@
 
 //Class B and C inherits class A
 
-
 #include<iostream>
 using namespace std;
 
-class A{  //one parent has more than one child classes
+class A
+{  //one parent has more than one child classes
     public:
-    A(){
+    A()
+    {
         cout<<"Constructor of A"<<endl;
     }
 };
-class B : public A{
+class B : public A
+{
     public:
-    B(){
+    B()
+    {
         cout<<"Constructor of B"<<endl;
     }
 };
 
-class C : public A{
+class C : public A
+{
     public:
-    C(){
+    C()
+    {
         cout<<"Constructor of C"<<endl;
     }
 };

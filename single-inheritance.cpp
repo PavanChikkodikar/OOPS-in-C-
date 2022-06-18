@@ -3,21 +3,26 @@
 #include<iostream>
 using namespace std; // this is namespace
 
-class Teacher{
+class Teacher
+{
     public:
-    Teacher(){
+    Teacher()
+    {
         cout<<"Hey, I'm a Teacher"<<endl;
     }
 
     string collegeName = "YouTube College";
 };
 
-class MathTeacher: public Teacher{//here we are inheriting the properties of Teacher to mathTeacher
+class MathTeacher: public Teacher
+{//here we are inheriting the properties of Teacher to mathTeacher
     public:
-    MathTeacher(){
+    MathTeacher()
+    {
         cout<<"I'm a math teacher"<<endl;
     }
 };
+
 
 int main ()
 {

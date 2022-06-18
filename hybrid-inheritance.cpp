@@ -4,7 +4,8 @@ using namespace std;
 class Animals // indicates class A  
 {  
 public:  
-    Animals(){  
+    Animals()
+    {  
     cout<< "This is an animal\n";  
     } 
 };  
@@ -12,7 +13,8 @@ public:
 class Mammals: public Animals // indicates class B derived from class A
 {  
 public:  
-    Mammals() { 
+    Mammals()
+     { 
     cout<< "This is a mammal\n";  
     }  
 };  
@@ -20,7 +22,8 @@ public:
 class Herbivores  // indicates class C
 {  
 public:  
-    Herbivores(){  
+    Herbivores()
+    {  
     cout<< "This is a herbivore\n";  
     }  
 };  
@@ -30,13 +33,14 @@ class Cow: public Mammals, public Herbivores
  // indicates class D derived from class B and class C
 {  
 public:  
-    Cow() {  
+    Cow() 
+    {  
     cout<< "A cow is a herbivore mammal\n";  
     }  
 };  
 
-int main() {  
-
+int main() 
+{  
     Cow c;  
     return 0;  
 }  
