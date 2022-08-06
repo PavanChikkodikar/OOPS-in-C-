@@ -1,8 +1,6 @@
  /* Polymorphism Part- 2 (Function Overriding)*/
- //2) Runtime Polymorphism – This is also known as dynamic (or late) binding.
-//in this there are same function display() but the only difference is it has been used in different classes this is called Function Overriding 
-//OR
-//child class has same function name as that of parent and no arguments 
+ //2) Runtime Polymorphism – This is also known as dynamic binding.
+
 #include<iostream>
 using namespace std; 
 

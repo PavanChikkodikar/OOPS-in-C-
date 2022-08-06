@@ -1,9 +1,8 @@
 
 /* A destructor is automatically called when:
-1) The program finished execution.
-2) When a scope (the { } parenthesis) containing local variable ends.
+ The program finished execution.
 OR
-Destructors are usually used to deallocate memory and do other cleanup for a class object and its class members when the object is destroyed. A destructor is called for a class object when that object passes out of scope or is explicitly deleted.
+Destructors are usually used to deallocate memory and do other cleanup for a class object and its class members when the object is destroyed.
 */
 #include<iostream>
 using namespace std; // this is namespace

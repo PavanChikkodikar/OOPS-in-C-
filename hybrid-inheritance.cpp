@@ -28,9 +28,7 @@ public:
     }  
 };  
 
-class Cow: public Mammals, public Herbivores
-
- // indicates class D derived from class B and class C
+class Cow: public Mammals, public Herbivores// indicates class D derived from class B and class C
 {  
 public:  
     Cow() 

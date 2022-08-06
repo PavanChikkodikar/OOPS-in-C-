@@ -11,7 +11,7 @@ class Teacher
         cout<<"Hey, I'm a Teacher"<<endl;
     }
 
-    string collegeName = "YouTube College";
+    string collegeName = "KLS GIT";
 };
 
 class MathTeacher: public Teacher

@@ -1,8 +1,10 @@
 //Ex- hiding the unused details or to show the important details to users
+//ex - mobile phone
+
 #include <iostream>
 using namespace std;
 
-class implementAbstraction
+class Abstraction
 {
 	private:
 		int a, b;
@@ -23,7 +25,7 @@ class implementAbstraction
 
 int main()
 {
-	implementAbstraction obj;
+	Abstraction obj;
 	obj.set(10, 20);
 	obj.display();
 	return 0;
