@@ -1,7 +1,8 @@
+//copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously
+
 #include <iostream>
 using namespace std;
 
-// declare a class
 class Wall 
 {
   private:

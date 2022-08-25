@@ -1,7 +1,9 @@
+//We assuse that there are 4 classes(A,B,C,D) class B inherits class A and class D inherits both classes B and C
+
 #include <iostream>  
 using namespace std;  
 
-class Animals // indicates class A  
+class Animals   
 {  
 public:  
     Animals()
@@ -10,7 +12,7 @@ public:
     } 
 };  
 
-class Mammals: public Animals // indicates class B derived from class A
+class Mammals: public Animals 
 {  
 public:  
     Mammals()
@@ -19,7 +21,7 @@ public:
     }  
 };  
 
-class Herbivores  // indicates class C
+class Herbivores  
 {  
 public:  
     Herbivores()

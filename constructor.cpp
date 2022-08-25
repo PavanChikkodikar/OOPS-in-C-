@@ -1,6 +1,7 @@
+//constructor name is same as that of class name
+
 #include<iostream>
 using namespace std; 
-//constructor name is same as that of class name
 
 class constructorDemo
 {

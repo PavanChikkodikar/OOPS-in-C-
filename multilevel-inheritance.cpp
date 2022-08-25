@@ -1,4 +1,3 @@
-/* Multi Level Inheritance */
 
 //C inherits B and B inherits A
 

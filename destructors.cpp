@@ -1,11 +1,11 @@
 
-/* A destructor is automatically called when:
- The program finished execution.
+/* A destructor is automatically called when - The program finished execution.
 OR
 Destructors are usually used to deallocate memory and do other cleanup for a class object and its class members when the object is destroyed.
 */
+
 #include<iostream>
-using namespace std; // this is namespace
+using namespace std; 
 
 class HelloWorld
 {

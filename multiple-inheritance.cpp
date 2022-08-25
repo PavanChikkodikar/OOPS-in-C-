@@ -1,6 +1,5 @@
-/* Multiple Inheritance */
 
-//C inherits A and B both
+//C inherits both A and B 
 
 #include<iostream>
 using namespace std;

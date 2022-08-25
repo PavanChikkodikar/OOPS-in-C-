@@ -1,7 +1,10 @@
+
+/*Inheritance(sharing or resuing) - one class derives from another class or child class will inherit all properties from parent class 
+
 /* Single Inheritance ---> B inherits A */
 
 #include<iostream>
-using namespace std; // this is namespace
+using namespace std; 
 
 class Teacher
 {
