@@ -1,4 +1,4 @@
-//Ex- hiding the unused details or to show the important details to users
+//Ex- hiding the unused details from user or to show the important details to users
 //ex - mobile phone, car
 
 #include <iostream>
@@ -9,7 +9,7 @@ class Abstraction
 	private:
 		int a, b;
 	public:
-		// method to set values of
+		// method to set values of 
 		// private members
 		void set(int x, int y)
 		{
