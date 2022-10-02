@@ -1,4 +1,3 @@
-
 //Class B and C inherits class A
 
 #include<iostream>

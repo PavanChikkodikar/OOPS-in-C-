@@ -1,6 +1,6 @@
-/* A destructor is automatically called when - The program finished execution.
+/* A destructor is automatically called when the program finished execution.
 OR
-Destructors are usually used to deallocate memory and do other cleanup for a class object and its class members when the object is destroyed.
+Destructors are usually used to deallocate memory created by the constructor. and do other cleanup for a class object and its class members when the object is destroyed.
 */
 
 #include<iostream>

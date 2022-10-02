@@ -1,4 +1,3 @@
-
 //C inherits B and B inherits A
 
 #include<iostream>

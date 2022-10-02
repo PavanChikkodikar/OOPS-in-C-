@@ -1,5 +1,4 @@
-
-/*Inheritance(sharing or resuing) - one class derives from another class or child class will inherit all properties from parent class 
+/*Inheritance(sharing or resuing) - one class derived from another class or child class(derived class) will inherit all properties from parent class(base class) 
 
 /* Single Inheritance ---> B inherits A */
 

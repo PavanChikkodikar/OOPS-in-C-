@@ -1,5 +1,5 @@
-//Ex- hiding the unused details from user or to show the important details to users
-//ex - mobile phone, car
+//Hiding the unused details from user or to show the important details to users
+//ex - mobile phone,man driving a car
 
 #include <iostream>
 using namespace std;
