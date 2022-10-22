@@ -15,7 +15,7 @@ class A
 class B : public A
 {
     public:
-        void display()
+        void display()//function overriding
         {
             cout<<"This is Base/Child Class Function";
         }

@@ -1,4 +1,4 @@
-// In classes ,we are binding the  data members and member functions  into a single group so by doing this we are reusing the code and also it will provide security using the concept of classes 
+// In classes ,we are binding the data members and member functions into a single group so by doing this we are reusing the code and also it will provide security using the concept of classes 
 // Ex - School bag can keep our books, pens, etc.
 
 

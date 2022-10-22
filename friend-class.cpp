@@ -18,7 +18,7 @@ class XYZ
         char ch='A';
         int num = 11;
     public:
-        friend class ABC;//using friend  we can access the private members of class XYZ or class XYZ  is a friend of class ABC  or  declarying the object as friend
+        friend class ABC;//using friend we can access the private members of class XYZ or class XYZ  is a friend of class ABC  or  declarying the object as friend
 };
 
 class ABC 

@@ -1,5 +1,5 @@
 //constructor is a function which as same  name as that of class name
-// Types of constructors -  Default, Parameterized, Copy and Destructor
+// Types of constructors(4 types) -  Default, Parameterized, Copy and Destructor
 
 #include<iostream>
 using namespace std; 

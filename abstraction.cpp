@@ -9,8 +9,6 @@ class Abstraction
 	private:
 		int a, b;
 	public:
-		// method to set values of 
-		// private members
 		void set(int x, int y)
 		{
 			a = x;

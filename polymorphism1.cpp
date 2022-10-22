@@ -12,7 +12,7 @@ class Add
         { 
             return num1+num2;
         }
-        int sum(int num1, int num2, int num3)//function overloaded
+        int sum(int num1, int num2, int num3)//function overloading
         { 
             return num1+num2+num3;
         }

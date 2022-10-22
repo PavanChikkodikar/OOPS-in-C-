@@ -9,7 +9,7 @@ using namespace std;
 class HelloWorld
 {
     public:
-    //Contructor
+    //default Contructor
     HelloWorld()
     {
         cout<<"Contrctor is Called"<<endl;
