@@ -1,5 +1,6 @@
 /* Virtual Function ---> here we can control the code. i can tell what function to call and what not to call*/
-// base class member function that you can redefine in a derived class to achieve polymorphism or used to achieve runtime polymorphism.
+// or base class member function that you can redefine in a derived class to achieve polymorphism
+// using Virtual Function we can achieve runtime polymorphism.
 
 
 #include<iostream>

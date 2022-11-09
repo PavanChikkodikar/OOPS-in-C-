@@ -1,4 +1,4 @@
-//2) Runtime Polymorphism – This is also known as dynamic binding(Function Overriding).
+//2) Runtime Polymorphism – This is also known as dynamic binding or Function Overriding.
 
 #include<iostream>
 using namespace std; 

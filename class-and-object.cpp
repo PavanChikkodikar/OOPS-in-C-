@@ -5,10 +5,10 @@ class class_name
 
 // class are reference types where as structure is value type
 
-//class: is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class.A class is like a blueprint for an object.
+//class: is a user-defined data type, which holds both data members and member functions, which can be accessed and used by creating an instance of that class.A class is like a blueprint for an object.
 
 // use of creating object: When a class is defined, only the specification for the object is defined; no memory or storage is allocated. To use the data and access functions defined in the class, you need to create objects.
-// class is an instance of an object.
+// object is an instance of a class
 
 #include<iostream>
 using namespace std; 

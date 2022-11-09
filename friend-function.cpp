@@ -1,6 +1,5 @@
-//friend function is a function that is declared outside the class and it is capable or it can access the private and protected members of another function
 
-//in friend class we have done class as friend but in friend function we have done function as friend
+//In friend class we have done class as friend but in friend function we have done function as friend
 
 #include <iostream>
 using namespace std;

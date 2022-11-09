@@ -1,12 +1,10 @@
 //Friend Class can access private and protected members of other class in which it is declared as friend.  
 
-//simply friend function tells us that using another class we can access the private members and protected members of another class
+//simply friend function tells us that using another class we can access both private members and protected members of another class
 
-/*Following are some important points about friend functions and classes: 
-1) Friends should be used only for limited purpose.
-2) Friendship is not mutual. If class A is a friend of B, then B doesn’t become a friend of A automatically.
-3) Friendship is not inherited 
-4) The concept of friends is not there in Java. */
+// If class A is a friend of B, then B doesn’t become a friend of A automatically.
+// Friendship is not inherited 
+// The concept of friends is not there in Java. 
 
 
 #include<iostream>
@@ -18,7 +16,7 @@ class XYZ
         char ch='A';
         int num = 11;
     public:
-        friend class ABC;//using friend we can access the private members of class XYZ or class XYZ  is a friend of class ABC  or  declarying the object as friend
+        friend class ABC;//class XYZ  is a friend of class ABC 
 };
 
 class ABC 

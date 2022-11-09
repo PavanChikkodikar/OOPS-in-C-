@@ -1,4 +1,4 @@
-//copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously or used to initialize the members of a newly created object by copying the members of an already existing object
+//copy constructor is a type of constructor which creates an object by initializing it with an object of the same class, which has been created previously or used to initialize the members of a newly created object by copying the members of an already existing object
 
 #include <iostream>
 using namespace std;

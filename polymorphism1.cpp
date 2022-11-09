@@ -1,4 +1,4 @@
-// Polymorphism is a feature of OOPs that allows the object to behave differently in different conditions. 
+// Polymorphism(many forms) is a feature of OOPs that allows the object to behave differently in different conditions. 
 //function has same name but parameters are different 
 // 1) Compile time Polymorphism – This is also known as static binding or function overloading
 
