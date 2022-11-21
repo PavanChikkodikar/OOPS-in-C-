@@ -2,6 +2,8 @@
 //function has same name but parameters are different 
 // 1) Compile time Polymorphism – This is also known as static binding or function overloading
 
+// operator overloading means defining the new job for the existing operation
+
 #include<iostream>
 using namespace std; 
 

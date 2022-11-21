@@ -1,4 +1,4 @@
-//Friend Class can access private and protected members of other class in which it is declared as friend.  
+//Friend Class can access both private and protected members of other class in which it is declared as friend.  
 
 //simply friend function tells us that using another class we can access both private members and protected members of another class
 

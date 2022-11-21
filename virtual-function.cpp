@@ -1,7 +1,10 @@
 /* Virtual Function ---> here we can control the code. i can tell what function to call and what not to call*/
 // or base class member function that you can redefine in a derived class to achieve polymorphism
 // using Virtual Function we can achieve runtime polymorphism.
+// Virtual Function are functions that are present in the parent class and are overridden by the base class
 
+
+// pure virtual function has no body of the function and assigned to zero
 
 #include<iostream>
 using namespace std; 
