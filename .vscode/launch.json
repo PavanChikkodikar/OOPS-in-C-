@@ -7,13 +7,11 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "c:/Users/pavan/Desktop/C++/OOPS",
-      "environment": [],
-      "program": "c:/Users/pavan/Desktop/C++/OOPS/build/Debug/outDebug",
-      "internalConsoleOptions": "openOnSessionStart",
+      "externalConsole": true,
+      "cwd": "c:/Users/pavan/Desktop/Study/C++/OOPS",
+      "program": "c:/Users/pavan/Desktop/Study/C++/OOPS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "D:/Program Files/CodeBlocks/MinGW/bin/gdb.exe",
-      "externalConsole": false,
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

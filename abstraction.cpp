@@ -1,5 +1,5 @@
-//Hiding the unused details from user or to show only important details to users and Data Abstraction avoids the code duplication, i.e., programmer does not have to undergo the same tasks every time to perform the similar operation. The main aim of the data abstraction is to reuse the code and the proper partitioning of the code across the classes.
-//ex - mobile phone,man driving a car
+//Hiding the unused details from user or to showing only important details to users,  Data Abstraction avoids the code duplication, i.e., programmer does not have to undergo the same tasks every time to perform the similar operation. The main aim of the data abstraction is to reuse the code and the proper partitioning of the code across the classes.
+//ex - mobile phone like user is only bothered about the how UI looks not about backend/hardware part,man driving a car
 
 #include <iostream>
 using namespace std;

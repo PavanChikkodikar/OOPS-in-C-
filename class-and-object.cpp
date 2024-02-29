@@ -1,9 +1,10 @@
 /*Syntax
 class class_name
 {
+    //body
 };*/
 
-// class are reference types where as structure is value type
+// class are reference types, where as structure is value type
 
 //class: is a user-defined data type, which holds both data members and member functions, which can be accessed and used by creating an instance of that class.A class is like a blueprint for an object.
 

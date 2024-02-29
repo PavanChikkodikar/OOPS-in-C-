@@ -1,5 +1,6 @@
 
 //In friend class we have done class as friend but in friend function we have done function as friend
+// rest all is same refer friend-class.cpp
 
 #include <iostream>
 using namespace std;
